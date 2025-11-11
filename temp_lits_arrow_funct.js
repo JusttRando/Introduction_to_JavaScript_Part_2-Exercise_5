@@ -39,7 +39,7 @@ function personalSite(name, age, fewords, hobby) {
   return html;
 }
 
-const cardinfo = personalSite("Alice", 28, "Hello this is my i like to introduce myself and go on by telling you about myself", "Painting");
+const cardinfo = personalSite("Alice", 28, "Hello this is my website i like to introduce myself and go on by telling you about myself", "Painting");
 console.log(cardinfo);
 
 // TODO: Convert regular functions to arrow functions
