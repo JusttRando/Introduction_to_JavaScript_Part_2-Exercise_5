@@ -1,5 +1,12 @@
 // TODO: Create a multiline string using template literals
 
+console.log(`
+  ==============================================================================
+  ToDo 1: multiline string
+  Create a multiline string using template literals
+  ==============================================================================
+  `)
+
 const funfact = 
 `A chicken once lived 
 for 18 months without 
@@ -10,6 +17,13 @@ jugular vein functions`;
 console.log("Did you know",funfact)
 
 // TODO: Create a function that uses template literals for HTML generation
+
+console.log(`
+  ==============================================================================
+  ToDo 2: HTML generation
+  Create a function that uses template literals for HTML generation
+  ==============================================================================
+  `)
 
 function personalSite(name, age, fewords, hobby) {
  
@@ -25,17 +39,30 @@ function personalSite(name, age, fewords, hobby) {
   return html;
 }
 
-// Example usage:
 const cardinfo = personalSite("Alice", 28, "Hello this is my i like to introduce myself and go on by telling you about myself", "Painting");
 console.log(cardinfo);
 
 // TODO: Convert regular functions to arrow functions
+
+console.log(`
+  ==============================================================================
+  ToDo 3: arrow functions
+  Convert regular functions to arrow functions
+  ==============================================================================
+  `)
 
 let myfunction = (x,y) => x - y;
 
 console.log("This is the sum of my function",myfunction(5,6))
 
 // TODO: Use arrow functions with array methods
+
+console.log(`
+  ==============================================================================
+  ToDo 4: array methods
+   Use arrow functions with array methods
+  ==============================================================================
+  `)
 
 const users = [
   { name: "Alice", age: 28, hobby: "Painting" },
